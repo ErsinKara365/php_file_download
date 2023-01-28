@@ -1,0 +1,21 @@
+<?php
+
+
+header("Content-type: video/mp4");
+header("Content-disposition: attachment; filename=".rand(0,100).".mp4"); 
+readfile("ersin2.mp4");
+
+?>
+
+
+filename --> cihaza indirirken verilen isim
+readfile --> sunucu içerisindeki verinin ismi
+
+
+<!-- mime-types -->
+
+images/jpeg
+application/pdf
+image/png
+text/plain
+application/zip
